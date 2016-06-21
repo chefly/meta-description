@@ -9,6 +9,7 @@ const original = document.querySelector('[name="description"]').content
  */
 function set (text) {
   let metatag = document.querySelector('[name="description"]')
+  let metaItemProp = document.querySelector('[itemprop="description"]')
 
   if (metatag) {
     metatag.content = text
@@ -17,6 +18,15 @@ function set (text) {
     metaDescription.setAttribute('name', 'description')
     metaDescription.setAttribute('content', text)
     document.head.appendChild(metaDescription)
+  }
+
+  if (metaItemProp) {
+    metaItemProp.content = text
+  } else {
+    let metaItemProp = document.createElement('meta')
+    metaItemProp.setAttribute('itemprop', 'description')
+    metaItemProp.setAttribute('content', text)
+    document.head.appendChild(metaItemProp)
   }
 }
 
