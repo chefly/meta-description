@@ -1,6 +1,11 @@
 # meta-description
 Manipulate the Meta Description tag in an webapp and reset
 
+## Motivation
+Since the Googlebot can run JavaScript, the SPA are now indexable by Google and are SEO-friendly.
+In a SPA is usually not change the meta tags and meta description is very important in the SERP along with the title tag.
+This library is designed to solve that problem. It works well with Page.js
+
 ## Installation
 `$ npm install meta-description`
 
@@ -15,11 +20,10 @@ metaDesc('A new description')
 metaDesc.reset()
 ```
 
-
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2016 Chefly
+Copyright (c) 2016 Chefly Food Sharing, S.L.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
