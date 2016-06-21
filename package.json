@@ -4,11 +4,16 @@
   "description": "Manipulate the Meta Description tag in an webapp and reset",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "budo index.js"
   },
   "keywords": [
-    ""
+    "document",
+    "meta",
+    "single page apps",
+    "spa"
   ],
   "author": "Carlos Azaustre <cazaustre@gmail.com> (https://carlosazaustre.es)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
 }
