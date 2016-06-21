@@ -4,6 +4,18 @@ Manipulate the Meta Description tag in an webapp and reset
 ## Installation
 `$ npm install meta-description`
 
+## API and usage
+```js
+const metaDesc = require('meta-description')
+
+// Set a new content description
+metaDesc('A new description')
+
+// Reset to original meta description
+metaDesc.reset()
+```
+
+
 ## License
 The MIT License (MIT)
 

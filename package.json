@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "Manipulate the Meta Description tag in an webapp and reset",
   "main": "index.js",
-  "scripts": {
-    "test": "budo index.js"
-  },
+  "scripts": {},
   "keywords": [
     "document",
     "meta",
     "single page apps",
     "spa"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chefly/meta-description.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chefly/meta-description/issues"
+  },
+  "homepage": "https://github.com/chefly/meta-description#readme",
   "author": "Carlos Azaustre <cazaustre@gmail.com> (https://carlosazaustre.es)",
   "license": "MIT",
   "devDependencies": {},

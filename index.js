@@ -1,5 +1,7 @@
 'use strict'
 
+const original = document.querySelector('[name="description"]').content
+
 /**
  * Dinamically manipulates the description metatag dinamically.
  * @param {string} text - The new content to insert in meta tag.
@@ -19,3 +21,7 @@ function set (text) {
 }
 
 exports = module.exports = set
+
+exports.reset = function () {
+  set(original)
+}
