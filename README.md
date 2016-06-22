@@ -1,5 +1,7 @@
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 # meta-description
-Manipulate the Meta Description tag in an webapp and reset
+Manipulates the Meta Description tag in an webapp and reset
 
 ## Motivation
 Since the Googlebot can run JavaScript, the SPA are now indexable by Google and are SEO-friendly.
