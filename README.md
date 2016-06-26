@@ -1,4 +1,5 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm version](https://badge.fury.io/js/meta-description.svg)](https://badge.fury.io/js/meta-description)
 
 # meta-description
 Manipulates the Meta Description tag in an webapp and reset
@@ -9,7 +10,9 @@ In a SPA is usually not change the meta tags and meta description is very import
 This library is designed to solve that problem. It works well with Page.js
 
 ## Installation
-`$ npm install meta-description`
+```
+$ npm install meta-description`
+```
 
 ## API and usage
 ```js
